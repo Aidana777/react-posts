@@ -42,16 +42,31 @@
     transition: all 500ms ease-in;
 }
 
-.wrapper__page{
+.page__wrapper {
     margin-top: 30px;
     display: flex;
 }
-.page{
+
+.page {
     padding: 10px;
     border: 1px solid teal;
     cursor: pointer;
 }
-.current__page{
+
+.page__current {
     border: 2px solid orange;
     font-weight: bold;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: lightgray;
+}
+
+.navbar__links {
+    margin-left:  auto;
 }
